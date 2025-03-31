@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>AI Guard Bank</title>
+      <link rel="stylesheet" href="../Style/login.page.css">
+</head>
+
+<body>
+      <div class="mainContainer">
+            <div class="imgContainer"></div>
+            <form class="loginFormContainer">
+                  <div class="backlogo">
+                        <img src="../images/logo.svg" alt="" height="25px" width="25px">
+                        <h3>AI Guard</h3>
+                  </div>
+                  <h2 id="authText">Login</h2>
+                  <input id="userInput" type="text" name="username" placeholder="User Name">
+                  <input id="email" type="email" name="username" placeholder="Email" required>
+                  <span id="errEmail" class="error"></span>
+                  <input id="password" type="password" name="password" placeholder="Password" required>
+                  <span id="err" class="error"></span>
+                  <button id="authBtn" type="button" onclick="location.href='index.html';">Login</button>
+
+                  <div class="loginWith">
+                        <div class="divider"></div>
+                        <p id="authWith">Login With</p>
+                        <div class="divider"></div>
+                  </div>
+                  <div class="LoginWithImg">
+                        <!-- <img src="../images/google_logo.svg" alt="">
+                        <img src="../images/facebook_logo.svg" alt=""> 
+                        <img src="../images/github_logo.svg" alt=""> -->
+                  </div>
+                  <p>Don't have an account? <a href="createUserAccount.html">register</a>
+                  </p>
+            </form>
+      </div>
+      <script src="../js/login.js"></script>
+</body>
+
+</html>

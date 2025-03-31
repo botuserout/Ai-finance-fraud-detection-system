@@ -1,0 +1,166 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+
+body{
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background-color: #111;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainContainer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80vh;
+      width: 70vw;
+      padding: 12px;
+      color: white;
+      border-radius: 20px;
+      box-shadow: 1px 1px 10px #111;
+      background-color: rgb(133, 3, 165);
+}
+
+.imgContainer{
+      animation: fade 1s; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      height: 100%;
+      border-radius: 20px;
+      background-image: url(../images/login2page.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.loginFormContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 40%;
+      height: 100%;
+	  animation: fade 1s;
+}
+
+.backlogo{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+}
+
+.backlogo h3{
+      font-size: 24px;
+      margin-left: 4px;
+      font-weight: 700;
+      color: aqua;
+}
+
+.loginFormContainer h2{
+      align-items: self-start;
+      margin-top: 30px;
+	  animation: all 1s; 
+}
+
+.loginFormContainer input{
+      width: 60%;
+	  height:20px;
+      padding: 12px;
+      margin: 12px 0;
+      border: none;
+      border-radius: 5px;
+      animation: inputLoad 0.5s ease;
+	  transition:all 1s;
+}
+
+.loginFormContainer button{
+      text-align: center;
+      margin-top: 10px;
+      width: 60%;
+      height: 40px;
+      font-size: 16px;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      background-color: #4870ff;
+      transition: all 0.5s;
+      animation: inputLoad 0.5s ease;
+}
+
+.loginFormContainer input:focus{
+      outline-color: #4870ff;
+      outline-width: 2px;
+}
+
+.loginFormContainer button:hover{
+      width: 65%;
+      transition: all 0.5s;
+      background: linear-gradient();
+}
+
+
+.loginFormContainer p{
+      margin: 10px 0;
+}
+
+.loginWith{
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+}
+
+.divider{
+      width: 50px;
+      height: 1px;
+      background-color: #d2d2d2;
+      border-radius: 5px;
+      margin: 0 10px;
+}
+
+.LoginWithImg{
+      width: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+}
+
+.LoginWithImg img{
+      width: 25px;
+}
+
+.error{
+      color: red;
+      font-size: 12px;
+      width: 60%;
+}
+
+.code{
+	cursor:pointer;
+	color:blue;
+}
+#userInput{
+	display:none;
+}
+
+@keyframes fade{
+      0%{
+            opacity: 0;
+      }
+      100%{
+            opacity: 1;
+      }
+}
+
+@keyframes inputLoad{
+      0%{
+            width: 20%;
+      }
+      100%{
+            width: 60%;
+      }
+}
