@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wise-vault-437706-u7",
+  "private_key_id": "f5065533baa5504cd7fb6de5eade6738d4f59ef1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDyH2nw6DNriO30\nMur84TWfyaDx/oP+4MMzyjL9GkCoOB0CPU1LjgH4lhPBl4Hf/bYV0J2VIdMgnszn\n/O3neNkuD5lMppcENukqXdqxK+/Fj4iZwgrvUbsOf9abUHfJ+bJTXDXSoe+nJHoi\n9KePoAjcS/G7nepRIWF1TXL+kVLn1JmeYkSsBD92xYZ/Ak9UtJD8G423GdbsX+g2\nQOfL6WjKOIKfZOonTIuiF9hRawpWn236sxRtVQlJGgKSTlKOxo0hgJuXJ1FliPj4\nr+gAVCrNfTj2m1CUJXxc3xSw6FLZNJWKbfR8CWN+ZpblH6P5irJcaVuHLIfSUE4l\n4ukfJ0URAgMBAAECggEADoqUckN/0xWGNQRZ2JYuAkq5v87pXoVhM9sQ9OJ+v5uf\nImNMIR2GQMfCp/3RbwJtzSGaVTqS04K2C7jFEQHRCVMmgdP/feFOX50DZWCeJd9Y\n9OMShQ0DjvteiDVs/FRiwV7oXJ4dJoyqSS8oYRfbcF+fRQVW7Uhz8feU0HUp5YJh\nTm4gtuEmE+/W1P+HNQ4DKOM51Ed8IzKf0BpMVdcaceK0g4E1Vqx84xTsdj9AfvYt\n68SENcbuz8My3djP7d0NNl4eLLHCXjF836x2IX74Zl3ZztADMF2Ta1kJwK8sFn7G\n4cJR2adPbLrwKIReR9/GotLN+OGpUap7qx0d6P6YAQKBgQD9y1Bab2zlauNdyvic\nLQTbKpQtMAGGiqgjQsMHq7PPEq10/HlUK0uueQfsyfVEQsgRhEVSXdFs81QTv9Q0\nSYYp6BSfBZSEJff0tppzl5uZ80Y9toBxq0B76F1oyxKpPe+7iSFOVVheetdPf2eF\ndGH+XwLjysSevPJnrxnIsT38aQKBgQD0OiGUk+J5+c66FGea7AehmOsaUOVLhjid\nOqOSEWqns5DhhnNV/fdENnkOL0iWUuMC1wz6oHr8rhkDkTJ1QD6gZnk4OR9ZvTwB\nD4aCEgPjwd+OMvp6+5OVunXkgE+g6abX45AOemNrxocn8/5w+daWrrzKOlkywNOq\nyGz2Z+UOaQKBgQCT9TbYMkObEBCTeqQrcHd3SkBug6EwDZ/uRpqq2ygNncbv/8zA\nDCmoArljC25oqEI5LBK57SYNzWIDzX7qKL8FqV50Qu2NiREgYmBy6Tz2qIQXsFD7\nc6o5UoM6d8FeV1Ru0YhQQaMuGZFysETq4anLgRqPMIQmQuNTHRr8DJClmQKBgDl6\ndOzC4UpTwJOKudd8NU+S7cIDx/M+Y5SdeGGoN7HAURjCy+IxI0CqkVMFTdATMdo5\nQpS5sDhHwRtV0MpHlHWrqFvTFc3I+5ZEUSPLmZ7Awhx1Yv4Ot21FtPlSOWtlkh69\nL+o4Y625y5Vbl0Z/hkFwXn45vUR0nVxUT1CuovoBAoGBAN58R2ZEjXM61L/U5rr8\nrwFkul6LdbUMPS/5Jy9O54zUawL8EAuH401dtOqG1K9PSWm2w0CzpD2QRxVASA5J\nTbHnFKUmr5zJ4h9GzTZjjGj7hrnaUOPamZSDCpXFM6VZ5C0zcrJ0uYVrNJ2ntlVB\nK8tGStc8PgHccd82sZ+U1J9C\n-----END PRIVATE KEY-----\n",
+  "client_email": "frauddetection@wise-vault-437706-u7.iam.gserviceaccount.com",
+  "client_id": "103067274267361746278",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/frauddetection%40wise-vault-437706-u7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
